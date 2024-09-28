@@ -40,11 +40,14 @@ body {
 .sampul h3 {
     color: #708871;
     font-family: "tangerine", cursive;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 3rem;
     margin-bottom: 5rem;
 }
 
+.sampul .hero h4 {
+    margin-bottom: 4rem;
+}
 .sampul a:hover {
     background-color: #708871;
     color: #fff;
@@ -101,6 +104,7 @@ body {
     font-family: 'Amiri Quran', serif;
     font-size: 3rem;
     margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .home .space {
