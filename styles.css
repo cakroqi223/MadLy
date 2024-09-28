@@ -1,0 +1,331 @@
+
+:root {
+    --krem: #FEF3E2;
+    --ijo: #708871;
+    --hitam: #606676;
+    --shadow: 0px 3px 8px 3px #686868;
+
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--krem);
+    font-family: "Rubik", sans-serif;
+}
+
+.sampul {
+    font-size: 1.2rem;
+    font-family: "Rubik", sans-serif;
+    color: #606676;
+    background-color: #FEF3E2;
+    background-image: url(img/flower-4865379_1280.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.sampul h1 {
+    font-family: "Tangerine", cursive;
+    font-weight: bold;
+    font-style: normal;
+    color: #708871;
+    font-size: 5rem;
+}
+
+.sampul h3 {
+    color: #708871;
+    font-family: "tangerine", cursive;
+    font-weight: lighter;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.sampul a:hover {
+    background-color: #708871;
+    color: #fff;
+}
+
+.simply-countdown {
+    border-radius: 30px;
+    width: auto;
+    margin: 20px auto;
+    background-color: rgba(143, 140, 140, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.btn-lg {
+    border: 3px solid #708871;
+    color: #606676;
+}
+
+.mynavbar {
+    background-color: rgba(112, 136, 113, 0.4) !important;
+    backdrop-filter: blur(4px);
+}
+
+.myoffcanvas {
+    background-color: rgba(112, 136, 113, 0.7) !important;
+    height: 100vh;
+}
+
+.mynavbar,.myoffcanvas{
+    text-transform: uppercase;
+}
+
+.mynavbar .navbar-brand , .myoffcanvas .offcanvas-title{
+    font-family: "Tangerine", cursive;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--krem);
+    text-transform: capitalize;
+}
+
+.nav-link {
+    color: var(--krem);
+}
+
+.nav-link:hover {
+    color: #708871;
+}
+
+.home .bismillah {
+    font-family: 'Amiri Quran', serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home .space {
+    width: 10px;
+    height: 10px;
+}
+.home .salam {
+    font-family: 'Amiri', serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.home {
+    background-image: url(img/h557.png);
+    background-size: cover;
+}
+
+.home h2 {
+    color: #708871;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Tangerine';
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.home h3 {
+    color: #686868;
+    font-size: 1.5rem;
+}
+
+.home p, .gift p, .gift span {
+    color: #606676;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.home .couple h3 {
+    color: #708871;
+    font-size: 4.5rem;
+    font-family: 'Tangerine';
+    margin-bottom: -5px;
+}
+
+.home .couple p {
+    font-size: 0.9rem;
+    
+}
+
+.info {
+    background-color: #708871;
+}
+
+.home, .info {
+    width: 100%;
+    padding: 25px;
+}
+
+.info h3, .info h4 {
+    color:#FEF3E2;
+    font-family: 'Tangerine';
+}
+
+.info h3 {
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info h4 {
+    font-size: 2.5rem;
+}
+
+.info p {
+    color:antiquewhite;
+    font-size: 0.9rem;
+}
+
+.card {
+    border: 3px solid #FEF3E2;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card i {
+    margin: 0 auto;
+}
+.card-header, .card-body, .card-footer {
+    background-color: #708871;
+    border: 2px solid #FEF3E2;
+    color: #FEF3E2 !important;
+}
+.info .btn-md {
+    background-color: #708871;
+    color: #FEF3E2;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.info .btn-md:hover {
+    background-color: #FEF3E2;
+    color: #708871;
+}
+
+.info iframe {
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+.rsvp {
+    background-color: #686868;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+}
+
+.rsvp h2, .gift h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 4.5rem;
+    color: #819b82;
+}
+
+.rsvp p {
+    color: antiquewhite;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.rsvp .form-label{
+    color:antiquewhite;
+}
+
+.rsvp button {
+    background-color: #819b82;
+    color: antiquewhite;
+    border: 1px solid #819b82;
+}
+
+.rsvp button:hover {
+    background-color: antiquewhite;
+    color: #819b82;
+    border: 1px solid antiquewhite;
+}
+
+footer {
+    padding: 3rem 0;
+    background-color: #819b82;
+    color: antiquewhite;
+}
+
+footer a {
+    color: pink;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.audio-icon-wrapper {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+    cursor: pointer;
+    color: antiquewhite;
+    opacity: 0.5;
+    mix-blend-mode: difference;
+    animation: muter 4s linear infinite;
+    -webkit-animation: muter 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    z-index: 999;
+}
+
+@keyframes muter {
+    from {
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
+
+/* Media Query */
+
+/* Laptop */
+@media (max-width: 992px){
+    html {
+        font-size: 75%;
+    }
+    .info .garis {
+        display: none;
+    }
+    }
+    /* Tablet */
+    @media (max-width: 768px){
+    html {
+        font-size: 60%;
+    }
+    .mynavbar, .myoffcanvas{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .sticky-top {
+        overflow: hidden;
+    }
+    }
+    /* Handphone */
+    @media (max-width: 576px){
+    html {
+        font-size: 57%;
+    }
+    .mynavbar .nav-link {
+        font-size: 2rem;
+    }
+    }
